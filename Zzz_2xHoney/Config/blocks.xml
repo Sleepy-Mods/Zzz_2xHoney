@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+	<!-- Fully replace both stump block definitions to guarantee 2-3 honey 100% of the time -->
+	<remove xpath="/blocks/block[@name='treeStump']"/>
+	<append xpath="/blocks">
+		<block name="treeStump">
+			<property name="Material" value="MtreeWoodSmall"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="IsPlant" value="true"/>
+			<property name="IndexName" value="challenge_stump"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Path" value="solid"/>
+			<property name="BigDecorationRadius" value="3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<drop event="Harvest" name="resourceWood" count="20,30" tag="oreWoodHarvest,lumberjackHarvest"/>
+			<drop event="Destroy" name="foodHoney" count="2" prob="1"/>
+			<property name="SortOrder1" value="B907"/>
+			<property name="SortOrder2" value="0000"/>
+			<property name="Tags" value="wood,challenge_stump"/>
+			<property name="FilterTags" value="MC_outdoor,SC_trees"/>
+			<property name="DestroyedEvent" value="block_tree_stump_bees"/>
+		</block>
+	</append>
+
+	<remove xpath="/blocks/block[@name='treeStumpPOI']"/>
+	<append xpath="/blocks">
+		<block name="treeStumpPOI">
+			<property name="Material" value="MtreeWoodSmall"/>
+			<property name="IsPlant" value="true"/>
+			<property name="IndexName" value="challenge_stump"/>
+			<property name="CustomIcon" value="treeStump"/>
+			<property name="CustomIconTint" value="996600"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Path" value="solid"/>
+			<property name="BigDecorationRadius" value="3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<drop event="Harvest" name="resourceWood" count="20,30" tag="oreWoodHarvest,lumberjackHarvest"/>
+			<drop event="Destroy" name="foodHoney" count="2" prob="1"/>
+			<property name="SortOrder1" value="B907"/>
+			<property name="SortOrder2" value="0001"/>
+			<property name="Tags" value="wood,challenge_stump"/>
+			<property name="FilterTags" value="MC_outdoor,SC_trees"/>
+			<property name="DestroyedEvent" value="block_tree_stump_bees"/>
+		</block>
+	</append>
+
+</configs>

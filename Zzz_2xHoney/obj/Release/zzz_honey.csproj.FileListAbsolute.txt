@@ -1,0 +1,9 @@
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zzz_honey\obj\Release\zzz_honey.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zzz_honey\obj\Release\zzz_honey.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zzz_honey\obj\Release\zzz_honey.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zzz_honey\obj\Release\zzz_honey.AssemblyInfo.cs
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zzz_honey\obj\Release\zzz_honey.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zzz_honey\obj\Release\zzz_honey.dll
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zzz_honey\obj\Release\zzz_honey.pdb
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zzz_honey\zzz_honey.dll
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zzz_honey\zzz_honey.pdb
